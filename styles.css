@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/4a/2c/f7/4a2cf73d8d323809d86c9dfd01e1217e.png');
+    background-color: grey;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 0;
+    font-family: 'Permanent Marker';
+}
+
+h1 {
+    font-size: 4.9vw;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    font-family: 'Permanent Marker';
+    font-size: 2vw;
+    height: 3vw;
+    width: 7vw;
+    margin: 8% 0 0 46.5%;
+    border: 0px;
+    border-radius: 5px;
+    background: lightgrey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 19.5vw;
+    margin-top: 0;
+
+    /* size of window */
+    height: 35vw; 
+    width: 61vw;
+}
+
+.square {
+    /* height: 6.25%;
+    width: 6.25%; */
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.colored {
+    background-color: grey;
+}
